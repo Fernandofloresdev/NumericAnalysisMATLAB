@@ -31,7 +31,7 @@ while i <= N
        fprintf('El error es %d \n', error);
        %fprintf('Maxbound is %d, aproximation is %d \n' , maxbound, p);
        fprintf('Número de iteraciones %d \n', i);
-       fplot(@(x) eval(f), [a b]);
+       %fplot(@(x) eval(f), [a b]);
        return 
    end
    
